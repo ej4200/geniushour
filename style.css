@@ -7,7 +7,7 @@
     margin:auto;
 }
 header{
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/cover.png");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("cover.png");
     height: 100vh;
     -webkit-background-size: cover;
     background-size: cover;
@@ -76,7 +76,7 @@ header{
     width: 40%;
 }
 body {
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("img/cover.png");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("cover.png");
     background-size: cover;
 	font-family: 'Alegreya Sans', sans-serif;
 	overflow-x: hidden;
