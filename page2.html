@@ -1,0 +1,48 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Your Sweet Shine</title>
+        <link rel="sortcut icon" type="image/png" href="img/favicon.png">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="style.css">
+<script>
+  function openSlideMenu(){
+    document.getElementById('menu').style.width = '250px';
+    document.getElementById('content').style.marginLeft = '250px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+</script>
+    </head>
+    <body>
+        
+  <div id="content">
+
+    <span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </span>
+
+    <div id="menu" class="nav">
+      <a href="#" class="close" onclick="closeSlideMenu()">
+      <i class="fas fa-times"></i>
+      </a>
+      <img src="https://api.freelogodesign.org/files/5c977816b5014b108e89ea9ebc4c9596/thumb/logo_200x200.png?v=637515993750000000">
+      <a href="index.html">Home</a>
+        <a href="page5.html">video</a>
+      <a href="#">Solar Panels</a>
+      <a href="page3.html">About Us</a>
+        <a href="page4.html">Contact Us</a>
+    </div>
+      <center><h1>Solar Panels</h1></center><br>
+      <center><h2>Prices</h2></center><br>
+      <center><h3>Generator-1,000</h3></center>
+      <center><h3>Solar Panals-500 per panels</h3></center>
+      <center><h3>Instalation-1,000</h3></center>
+      <center><h2>Total for all is 7,000 with 10 panels</h2></center>
+    </div>
+    </body>
+</html>
